@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daisy UI</title>
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Daisy UI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- Tailwind CDN -->
@@ -21,13 +19,12 @@
             }
           }
         }
-    </script>
+      </script>
 </head>
 <body>
-    <!-- Header Section -->
     <header class="container mx-auto">
         <!-- Navbar Section -->
-        <div class="navbar bg-base-100 my-5">
+        <div class="navbar bg-base-100 my-5 bg-gray-400">
             <div class="navbar-start w-full">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -141,224 +138,7 @@
                 <a href="#slide1" class="btn btn-circle bg-gray-300">❯</a>
               </div>
             </div>
-        </div>
+          </div>
     </header>
-
-    <!-- Main Content Section -->
-    <main>
-      <!-- Feature Section -->
-       <section class="container mx-auto my-20">
-          <div>
-            <h1 class="text-4xl md:text-5xl font-semibold text-center">Fetured Bikes In This Year</h1>
-            <p class="text-sm text-[#E76F51] font-semibold text-center mt-3">Best bike collection</p>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 place-items-center gap-10 mt-14">
-            <img class="" src="img/others/feature-bike.png" alt="Feature bike..">
-            <img src="img/others/feature-bike.png" alt="Feature bike..">
-            <img src="img/others/feature-bike.png" alt="Feature bike..">
-          </div>
-       </section>
-
-       <!-- Latest News Section -->
-        <section class="container mx-auto">
-          <div>
-            <h1 class="text-4xl md:text-5xl font-semibold text-center">Latest News</h1>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 mx-5">
-            <div class="card bg-base-100 shadow-inner shadow-gray-200">
-              <figure>
-                <img class="w-full p-8" src="img/others/latest1.png" alt="Latest bike..">
-              </figure>
-              <div class="card-body px-8 pt-0 pb-5 md:px-8 md:py-5">
-                <h2 class="card-title text-xl md:text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
-                <p class="text-[#6C6C6C] text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                <div class="card-actions mt-8">
-                  <a class="btn bg-bike-primary text-white text-lg px-10">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-base-100 shadow-inner shadow-gray-200">
-              <figure>
-                <img class="w-full p-8" src="img/others/latest2.png" alt="Latest bike..">
-              </figure>
-              <div class="card-body px-8 pt-0 pb-5 md:px-8 md:py-5">
-                <h2 class="card-title text-xl md:text-3xl font-semibold">Motorcycles & Scooters</h2>
-                <p class="text-[#6C6C6C] text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                <div class="card-actions mt-8">
-                  <a class="btn bg-white border-orange-500 text-orange-500 text-lg px-10">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-base-100 shadow-inner shadow-gray-200">
-              <figure>
-                <img class="w-full p-8" src="img/others/latest3.png" alt="Latest bike..">
-              </figure>
-              <div class="card-body px-8 pt-0 pb-5 md:px-8 md:py-5">
-                <h2 class="card-title text-xl md:text-3xl font-semibold">2021 Honda CBR500R</h2>
-                <p class="text-[#6C6C6C] text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                <div class="card-actions mt-8">
-                  <a class="btn bg-white border-orange-500 text-orange-500 text-lg px-10">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Happy Clients Section -->
-        <section class="container mx-auto my-20">
-          <div>
-            <h1 class="text-4xl md:text-5xl font-semibold text-center">Happy <span class="text-orange-500">Clients says</span></h1>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10 mx-5">
-            <div class="card bg-base-100 border border-red-400 text-center p-5 md:p-10">
-              <figure>
-                <img class="w-[150px]" src="img/others/user-1.png" alt="User..">
-              </figure>
-              <div class="md:px-8 md:py-5">
-                <p class="text-[#6C6C6C] text-sm md:text-base mt-3 md:mt-0">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
-                <div class="text-orange-500 my-3">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <a class="text-[#23A6F0]" href="#">Regina Miles</a>
-                <h6 class="font-semibold mt-3">Banker</h6>
-              </div>
-            </div>
-            <div class="card bg-base-100 border border-red-400 text-center p-5 md:p-10">
-              <figure>
-                <img class="w-[150px]" src="img/others/user-2.png" alt="User..">
-              </figure>
-              <div class="md:px-8 md:py-5">
-                <p class="text-[#6C6C6C] text-sm md:text-base mt-3 md:mt-0">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
-                <div class="text-orange-500 my-3">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <a class="text-[#23A6F0]" href="#">Regina Miles</a>
-                <h6 class="font-semibold mt-3">Banker</h6>
-              </div>
-            </div>
-            <div class="card bg-base-100 border border-red-400 text-center p-5 md:p-10">
-              <figure>
-                <img class="w-[150px]" src="img/others/user-3.png" alt="User..">
-              </figure>
-              <div class="md:px-8 md:py-5">
-                <p class="text-[#6C6C6C] text-sm md:text-base mt-3 md:mt-0">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
-                <div class="text-orange-500 my-3">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <a class="text-[#23A6F0]" href="#">Regina Miles</a>
-                <h6 class="font-semibold mt-3">Banker</h6>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <!-- Frequently ASK Question -->
-         <section class="container mx-auto mb-12">
-          <div>
-            <h1 class="text-4xl md:text-5xl font-semibold text-center">Frequently Asked<span class="text-orange-500">Questions</span></h1>
-          </div>
-          <div class="card lg:card-side bg-base-100">
-            <figure>
-              <img class="p-10 md:p-5 md:w-1/2 lg:w-full" src="img/others/faq.png" alt="">
-            </figure>
-            <div class="card-body">
-              <div class="collapse collapse-arrow bg-base-200">
-                <input type="radio" name="my-accordion-2" checked="checked" />
-                <div class="collapse-title text-lg md:text-xl font-medium">What are the most important things I should
-                  know about riding a bike?</div>
-                <div class="collapse-content text-[#7E848C] text-sm md:text-base">
-                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
-                </div>
-              </div>
-              <div class="collapse collapse-arrow bg-base-200">
-                <input type="radio" name="my-accordion-2" checked="checked" />
-                <div class="collapse-title text-lg md:text-xl font-medium">How can I tell if my helmet is old and I need a 
-                  new one?</div>
-                <div class="collapse-content text-[#7E848C] text-sm md:text-base">
-                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws.</p>
-                </div>
-              </div>
-              <div class="collapse collapse-arrow bg-base-200">
-                <input type="radio" name="my-accordion-2" checked="checked" />
-                <div class="collapse-title text-lg md:text-xl font-medium">My bike has been in storage is it safe to ride?</div>
-                <div class="collapse-content text-[#7E848C]">
-                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.</p>
-                </div>
-              </div>
-              <div class="collapse collapse-arrow bg-base-200">
-                <input type="radio" name="my-accordion-2" checked="checked" />
-                <div class="collapse-title text-lg md:text-xl font-medium">What rules should I follow when riding my bike?</div>
-                <div class="collapse-content text-[#7E848C] text-sm md:text-base">
-                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws.This will help you be a more focused and legally compliant bike rider. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-         </section>
-    </main>
-    
-    <!-- Footer Section -->
-    <footer class="bg-neutral">
-      <footer class="footer footer-center rounded p-10 container mx-auto text-white">
-        <nav class="grid grid-flow-col gap-4">
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <div class="grid grid-flow-col gap-4">
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-              </svg>
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-              </svg>
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-              </svg>
-            </a>
-          </div>
-        </nav>
-        <aside>
-          <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-        </aside>
-      </footer>
-    </footer>
 </body>
 </html>
